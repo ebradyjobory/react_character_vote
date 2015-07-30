@@ -111,5 +111,5 @@ gulp.task('watch', function() {
   gulp.watch('app/stylesheets/**/*.less', ['styles']);
 });
 
-gulp.task('default', ['styles', 'vendor', 'browserify-watch', 'watch']);
+gulp.task('default', ['styles', 'vendor', 'browserify- ', 'watch']);
 gulp.task('build', ['styles', 'vendor', 'browserify']);
